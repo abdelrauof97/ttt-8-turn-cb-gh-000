@@ -22,12 +22,11 @@ def valid_move?(board, index)
   end
 end
 
-def turn(board)
-  if !("#{index}".to_i.between?(1- 9))
+def turn(board, index)
+  if "#{index}".to_i.between?(1- 9)
       puts "Please enter" 1-9:"
       input = gets.strip
       index = input.to_i - 1
-      valid_move?(board, "#{index}".to_i)
   end
 
 end
