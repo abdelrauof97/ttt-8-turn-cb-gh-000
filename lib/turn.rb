@@ -30,6 +30,7 @@ def turn(board, index)
     index = input_to_index(gets.strip)
     if valid_move?(board, "#{index}".to_i)
     move(board, "#{index}".to_i, "X")
+    display_board(board)
 
   end
 
