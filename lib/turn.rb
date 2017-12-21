@@ -28,7 +28,7 @@ end
 def turn(board, index)
   unless valid_move?(board, "#{index}".to_i)
     puts "Please enter 1-9:"
-    input_to_index(gets.stirp)
+    index = input_to_index(gets.stirp)
     puts "#{index}"
   end
 end
