@@ -29,7 +29,7 @@ def turn(board, index)
   if !(valid_move?(board, "#{index}".to_i))
     puts "Please enter 1-9:"
     index = input_to_index(gets.strip)
-    
+
   end
 
 end
