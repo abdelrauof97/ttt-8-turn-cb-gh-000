@@ -8,7 +8,7 @@ display_board(board)
 input = gets.strip
 index = input.to_i - 1
 valid_move?(board, "#{index}".to_i)
-turn(board)
+turn(board, "#{index}".to_i)
 
 move(board, "#{index}".to_i, "X")
 display_board(board)
