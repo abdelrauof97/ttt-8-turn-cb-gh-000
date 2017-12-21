@@ -29,7 +29,7 @@ def turn(board)
       index = input.to_i - 1
       valid_move?(board, "#{index}".to_i)
   end
-      
+
 end
 
 def move(board, index, value)
