@@ -9,7 +9,6 @@ display_board(board)
 valid_move?(board, "#{index}".to_i)
 turn(board, "#{index}".to_i)
 turn(board, "#{index}".to_i)
-turn(board, "#{index}".to_i)
 
 move(board, "#{index}".to_i, "X")
-display_board
+display_board(board)
