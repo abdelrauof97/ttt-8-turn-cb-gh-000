@@ -33,7 +33,7 @@ def turn(board)
     display_board(board)
   else
     puts "input again"
-    
+
   end
 
 end
