@@ -31,8 +31,8 @@ def turn(board)
   if valid_move?(board, "#{index}".to_i)
     move(board, "#{index}".to_i, "X")
     display_board(board)
-  else 
-    puts "you have putted a wrong number" 
+  else
+    puts "you have putted a wrong number"
 
   end
 
