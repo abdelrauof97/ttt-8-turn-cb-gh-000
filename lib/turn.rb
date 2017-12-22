@@ -33,6 +33,7 @@ def turn(board)
     display_board(board)
   else
     puts "input again"
+    index = input_to_index(gets.strip)
 
   end
 
